@@ -39,7 +39,7 @@ jobs:
       - name: Build project
         run: npm run build
         env:
-	        BASE_URL: /Maison-Doree-Bakery/
+          BASE_URL: /Maison-Doree-Bakery/
 
       - name: Setup Pages
         uses: actions/configure-pages@v5
